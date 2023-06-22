@@ -6,15 +6,9 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
 import { PageListComponent } from './page-list/page-list.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    SearchBarComponent,
-    PageListComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent, SearchBarComponent, PageListComponent],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
